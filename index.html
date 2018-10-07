@@ -1,86 +1,130 @@
-<!-- Activity 1: Basic HTML Bio -->
 
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>Student Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-</head>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<body>
+<link href="style.css" rel="stylesheet">
+  
+  </head>
 
-  <!-- Site Header -->
-  <header>
-    <!-- h1: The most important headline -->
-    <h1>Student Bio</h1>
-  </header>
+  <body>
 
-  <div>
+      <header>
+          <div class="navbar navbar-dark bg-dark">
+              <span class="navbar-brand mb-0 h1">GB Portfolio</span>
+          </div>
+    
+        </header>
+    
+        <main role="main">
+    
+          <section class="jumbotron text-center">
+            <div class="container">
+              <h1 class="jumbotron-heading">Student Sample Portfolio</h1>
+              <p class="lead text-muted">View a quick collection of projects completed for class.
+                <br>
+                Tweet to <a href="https://twitter.com/gbcodedev">@gbcodedev</a> | Follow progress <a href="https://github.com/gbanares">@GitHub</a> 
+              </p>
+              <p>
+                <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+              </p>
+            </div>
+          </section>
 
-    <!-- Section 1: Bio -->
-    <section>
-      <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-      <h2>Your Name</h2>
+              
+          <div class="album py-5 bg-light">
+            <div class="container">
+    
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="img/psychicgame.png" alt="Psychic Game Image">
+                    <div class="card-body">
+                      <p class="card-text">Homework assignment for week 3 - Psychic Game.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="https://gbanares.github.io/Psychic-Game/"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <!-- <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="col-md-4">
+                  <!-- <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
 
-      <!-- Image with link -->
-      <img src="https://placehold.it/200x200" alt="Your Name">
+    
+                <div class="col-md-4">
+                  
+                </div>
+                <div class="col-md-4">
+                  
+                </div>
+                <div class="col-md-4">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </main>
+    
+        <footer class="text-muted">
+          <div class="container">
+            <p class="float-right">
+              <a href="#">Back to top</a>
+            </p>
+            <p>&copy; 2018. GB</p>
+            <p></p>
+          </div>
+        </footer>
 
-      <!-- Paragraph with embedded link -->
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a> </p>
-    </section>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
 
-    <!-- Section 2: Contact Info -->
-    <section>
-
-      <!-- h2: Tier-2 Headline -->
-      <h2>Contact Info</h2>
-
-      <!-- Unordered list -->
-      <ul>
-        <li><strong>Email:</strong> <a href="mailto:joshmckenney@gmail.com">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#somethingdownthepage">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <a id="somethingdownthepage">Go to here by clicking sampleName</a>
-
-    </section>
-  </div>
-
-</body>
-
+  </body>
 </html>
