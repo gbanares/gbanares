@@ -8,6 +8,10 @@
 @import url('../css/plugins/icon-moon.css');
 
 
+.contactlinks a:link, a:visited{
+  color:#FFF;
+}
+
 html, body {
   height: 100%;
 }
